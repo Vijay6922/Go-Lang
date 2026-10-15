@@ -74,9 +74,9 @@ func main() {
 	mat := [][]int{{1, 2}, {3, 4}}
 	mat2 := [][]int{{5, 6}, {7, 8}}
 	result :=add(mat,mat2)
-	fmt.Println("addtion of 2 matrices:",result)
+	fmt.Println("addtion of 2 matrixs:",result)
 	result2 :=mul(mat,mat2)
-	fmt.Println("multiplication of 2 matrices:",result2)
+	fmt.Println("multiplication of 2 matrixs:",result2)
 	result21 :=muls(mat,mat2)
-	fmt.Println("multiplication of 2 matrices:",result21)
+	fmt.Println("multiplication of 2 matrixs:",result21)
 }
